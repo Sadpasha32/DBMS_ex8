@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+minio:
+  endpoint: http://localhost:9000
+  accessKey: minioadmin
+  secretKey: minioadmin
+  secure: false
+
+
